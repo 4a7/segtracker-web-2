@@ -25,7 +25,7 @@ SECRET_KEY = '8j@(*wq@55zt&@h!j9%h+hkezm7b-!2=%iupxi2u&l1x8okf#('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.pythonanywhere.com']
 
 
 # Application definition
@@ -81,9 +81,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'dbSegmentTracker',
-		'USER': 'newuser',
-		'PASSWORD': 'metropolis',
-		'HOST': 'localhost',
+		'USER': 'segtracker',
+		'PASSWORD': 'Parma2019!',
+		'HOST': 'segtracker.mysql.pythonanywhere-services.com',
 		'PORT': '3306',
     }
 }
