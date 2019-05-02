@@ -127,6 +127,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATICFILES_DIRS = ("/path/to/your/css",)
+#STATICFILES_DIRS = ("/path/to/your/css",)
 
 PULL_DRIVER_UPLOAD_PATH = "pesos"
