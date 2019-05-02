@@ -1,0 +1,83 @@
+.btn {
+  background-color: #47b6ff;
+  border: 2px solid #47b6ff;
+  border-radius: 12px;
+  color: #fff;
+  padding: 10px 24px;
+  -webkit-transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out;
+  -moz-transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out;
+  -ms-transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out;
+  -o-transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out;
+  transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out;
+}
+
+.btn:hover, .btn:focus, .btn:not(:disabled):not(.disabled):active {
+  box-shadow: none;
+  background-color: #ffffff;
+  border-color: #47b6ff;
+  color: #47b6ff;
+  /*margin-top: 0px;*/
+  /*padding-top: 7px;*/
+  /*padding-bottom: 7px;*/
+}
+
+.btn.btn-primary:hover, .btn.btn-primary:focus, .btn.btn-primary:not(:disabled):not(.disabled):active {
+  box-shadow: none;
+}
+
+.selectfile {
+  display: flex;
+  flex-wrap: no-wrap;
+  padding: 24px 12px;
+  border: 1px solid #e3e3e3;
+  border-radius: 12px;
+  overflow-x: auto;
+}
+
+.selectfile .selectedfile {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  max-width: 100px;
+  border-right: 1px solid #e3e3e3;
+  padding: 0 12px;
+  display: none;
+}
+
+.selectfile .selectedfile:first-child {
+  padding: 0 12px 0 0;
+}
+
+.selectfile .selectedfile .fa {
+  font-size: 50px;
+  margin: 0 0 10px;
+}
+
+.selectfile .selectedfile span {
+  display: block;
+  word-break: break-word;
+  font-size: 12px;
+}
+
+.selectfile .add-file {
+  background: none;
+  font-size: 25px;
+  color: #333;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.selectfile .add-file span {
+  font-size: 14px;
+  margin: 0 0 0 24px;
+}
+
+*:focus {
+  outline: #47b6ff auto 5px;
+}
+

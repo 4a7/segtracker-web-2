@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Segmentacion y Rastreo de Celulas</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="assets/css/-Login-form-Page-BS4-.css">
+    <link rel="stylesheet" href="assets/css/-product-features.css">
+    <link rel="stylesheet" href="assets/css/Basic-fancyBox-Gallery-v2.css">
+    <link rel="stylesheet" href="assets/css/Basic-fancyBox-Gallery.css">
+    <link rel="stylesheet" href="assets/css/Data-Table-1.css">
+    <link rel="stylesheet" href="assets/css/Data-Table.css">
+    <link rel="stylesheet" href="assets/css/Drag--Drop-Upload-Form.css">
+    <link rel="stylesheet" href="assets/css/ebs-bootstrap-datepicker-1.css">
+    <link rel="stylesheet" href="assets/css/ebs-bootstrap-datepicker-2.css">
+    <link rel="stylesheet" href="assets/css/ebs-bootstrap-datepicker-3.css">
+    <link rel="stylesheet" href="assets/css/ebs-bootstrap-datepicker-4.css">
+    <link rel="stylesheet" href="assets/css/ebs-bootstrap-datepicker.css">
+    <link rel="stylesheet" href="assets/css/File-Input---Beautiful-Input--Button-Approach-Jasny-Bootstrap.css">
+    <link rel="stylesheet" href="assets/css/Filterable-Gallery.css">
+    <link rel="stylesheet" href="assets/css/Pretty-Registration-Form.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/dataTables.bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Dark.css">
+    <link rel="stylesheet" href="assets/css/Navbar-with-menu-and-login.css">
+    <link rel="stylesheet" href="assets/css/smoothproducts.css">
+    <link rel="stylesheet" href="assets/css/Studious-selectfile.css">
+    <link rel="stylesheet" href="assets/css/Toggle-Switch-1.css">
+    <link rel="stylesheet" href="assets/css/Toggle-Switch.css">
+    <link rel="stylesheet" href="assets/css/untitled.css">
+</head>
+
+<body>
+    <div class="row register-form" style="background-color: #c5dede;background-image: url(&quot;assets/img/wp2237890.jpg&quot;);background-size: auto;background-repeat: repeat;">
+        <div class="col-md-8 offset-md-2">
+            <form method="GET" class="custom-form" style="background-color: rgba(255,255,255,0.54);">
+                <h1>Registro</h1>
+                <div class="form-row form-group">
+                    <div class="col-sm-4 label-column"><label class="col-form-label" for="name-input-field">Nombre</label></div>
+                    <div class="col-sm-6 input-column"><input id="name" class="form-control" type="text"></div>
+                </div>
+                <div class="form-row form-group">
+                    <div class="col-sm-4 label-column"><label class="col-form-label" for="name-input-field">Apellido</label></div>
+                    <div class="col-sm-6 input-column"><input id="lastname" class="form-control" type="text"></div>
+                </div>
+                <div class="form-row form-group">
+                    <div class="col-sm-4 label-column"><label class="col-form-label" for="email-input-field">Correo electrónico</label></div>
+                    <div class="col-sm-6 input-column"><input id="email" class="form-control" type="email"></div>
+                </div>
+                <div class="form-row form-group">
+                    <div class="col-sm-4 label-column"><label class="col-form-label" for="repeat-pawssword-input-field">Institución</label></div>
+                    <div class="col-sm-6 input-column"><input id="institute" class="form-control" type="text"></div>
+                </div>
+                <div class="form-row form-group">
+                    <div class="col-sm-4 label-column"><label class="col-form-label" for="pawssword-input-field">Contraseña</label></div>
+                    <div class="col-sm-6 input-column"><input id="pass" class="form-control" type="password"></div>
+                </div>
+                <div class="form-row form-group">
+                    <div class="col-sm-4 label-column"><label class="col-form-label" for="repeat-pawssword-input-field">Repetir contraseña</label></div>
+                    <div class="col-sm-6 input-column"><input id="repass" class="form-control" type="password"></div>
+                </div>
+                <div class="center" style="align-content: center">
+                    <button type="button" class="btn btn-secondary btn-lg bg-info" role="button" style="height: 55px;max-height: 55px;" onclick="addUser()">
+                        Registrarse</button>
+                    
+                </div>
+                <div class="center" style="align-content: center">
+                    <a href="login.html" class="forgot" style="color: rgb(0, 0, 0);font-family: Montserrat, sans-serif;">Ya tengo un usuario</a>
+                    
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+    <script src="assets/js/makeRequest.js"></script>
+    <script src="assets/js/registerUser_JS.js"></script> 
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.15/js/dataTables.bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.pack.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="assets/js/smoothproducts.min.js"></script>
+    <script src="assets/js/Studious-selectfile.js"></script>
+    <script src="assets/js/agency.js"></script>
+    <script src="assets/js/Basic-fancyBox-Gallery.js"></script>
+    <script src="assets/js/theme.js"></script>
+    <script src="assets/js/bs-animation.js"></script>
+    <script src="assets/js/Date-Range-Picker.js"></script>
+    <script src="assets/js/ebs-bootstrap-datepicker-1.js"></script>
+    <script src="assets/js/ebs-bootstrap-datepicker.js"></script>
+    <script src="assets/js/File-Input---Beautiful-Input--Button-Approach-Jasny-Bootstrap.js"></script>
+    <script src="assets/js/Filterable-Gallery.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+</body>
+
+</html>

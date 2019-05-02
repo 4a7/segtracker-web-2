@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Segmentacion y Rastreo de Celulas</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="assets/css/-Login-form-Page-BS4-.css">
+    <link rel="stylesheet" href="assets/css/-product-features.css">
+    <link rel="stylesheet" href="assets/css/Basic-fancyBox-Gallery-v2.css">
+    <link rel="stylesheet" href="assets/css/Basic-fancyBox-Gallery.css">
+    <link rel="stylesheet" href="assets/css/Data-Table-1.css">
+    <link rel="stylesheet" href="assets/css/Data-Table.css">
+    <link rel="stylesheet" href="assets/css/Drag--Drop-Upload-Form.css">
+    <link rel="stylesheet" href="assets/css/ebs-bootstrap-datepicker-1.css">
+    <link rel="stylesheet" href="assets/css/ebs-bootstrap-datepicker-2.css">
+    <link rel="stylesheet" href="assets/css/ebs-bootstrap-datepicker-3.css">
+    <link rel="stylesheet" href="assets/css/ebs-bootstrap-datepicker-4.css">
+    <link rel="stylesheet" href="assets/css/ebs-bootstrap-datepicker.css">
+    <link rel="stylesheet" href="assets/css/File-Input---Beautiful-Input--Button-Approach-Jasny-Bootstrap.css">
+    <link rel="stylesheet" href="assets/css/Filterable-Gallery.css">
+    <link rel="stylesheet" href="assets/css/Pretty-Registration-Form.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/dataTables.bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Dark.css">
+    <link rel="stylesheet" href="assets/css/Navbar-with-menu-and-login.css">
+    <link rel="stylesheet" href="assets/css/smoothproducts.css">
+    <link rel="stylesheet" href="assets/css/Studious-selectfile.css">
+    <link rel="stylesheet" href="assets/css/Toggle-Switch-1.css">
+    <link rel="stylesheet" href="assets/css/Toggle-Switch.css">
+    <link rel="stylesheet" href="assets/css/untitled.css">
+</head>
+
+<body id="page-top">
+    <h2>{{saludo}}</h2>
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top" id="mainNav" style="background-color: rgb(2,12,21);">
+        <div class="container-fluid"><a class="navbar-brand" href="#page-top" style="color: rgb(23,162,184);"><img class="img-fluid border rounded shadow" src="assets/img/parma%20logo.png" width="15%" height="100%" data-bs-hover-animate="pulse"></a><button class="navbar-toggler navbar-toggler-right"
+                data-toggle="collapse" data-target="#navbarResponsive" type="button" data-toogle="collapse" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" style="background-color: rgb(23,162,184);"><i class="fa fa-bars"></i></button>
+            <div
+                class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="nav navbar-nav ml-auto text-uppercase">
+                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="registration.html">Registrarse</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="login.html">Iniciar Sesión</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#services">Servicios</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#portfolio">Proceso</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#team">Equipo</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#contact">contacto</a></li>
+                </ul>
+        </div>
+        </div>
+    </nav>
+    <header class="masthead" style="background-image: url(&quot;assets/img/13981.jpg&quot;);">
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in"><span class="font-border" style="color: rgb(255,255,255);line-height: 40px;text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">Bienvenido</span></div>
+                <div style="margin-bottom: 23px;"><span class="font-border" style="color: rgb(255,255,255);line-height: 70px;text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;font-size: 78px;">Sistema de segmentación y rastreo de células</span></div><a class="btn btn-secondary bg-info border-dark btn-xl text-uppercase js-scroll-trigger"
+                    role="button" href="#services" style="background-color: rgb(23,162,184);">Más información</a></div>
+        </div>
+    </header>
+    <section id="services" style="background-color: rgba(47,47,47,0.07);">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="text-uppercase section-heading" style="font-size: 61px;">SERVICIOS</h2>
+                    <h3 class="text-muted section-subheading" style="font-size: 22px;">Funciones accesibles en el sistema</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4"><span class="fa-stack fa-4x"><i class="fa fa-circle-o bg-primary border rounded-circle fa-stack-2x text-primary" style="color: rgb(31,48,135);background-color: rgb(22,153,210);"></i><i class="fas fa-file-medical-alt bg-info border rounded-circle fa-stack-1x fa-inverse"></i></span>
+                    <h4
+                        class="section-heading" style="margin-top: 10px;">Segmentación de Células</h4>
+                        <p class="text-dark" style="color: rgb(0,0,0);font-size: 18px;"><br>Permite la segmentación automática de imagenes a través del uso de una red neuronal.<br><br></p>
+                </div>
+                <div class="col-md-4"><span class="fa-stack fa-4x"><i class="fa fa-star"></i><i class="far fa-calendar-alt bg-info border rounded-circle fa-stack-1x fa-inverse" style="background-color: rgb(0,0,0);"></i></span>
+                    <h4 class="section-heading" style="margin-top: 10px;">Rastreo de células</h4>
+                    <p class="text-dark" style="font-size: 20px;"><br>Seguimiento de los cambios de una célula en una serie de imágenes a través del tiempo.<br><br><br></p>
+                </div>
+                <div class="col-md-4"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fa fa-cloud-download bg-info border rounded-circle fa-stack-1x fa-inverse"></i></span>
+                    <h4 class="section-heading" style="margin-top: 10px;">Informes</h4>
+                    <p class="text-dark" style="font-size: 20px;"><br>Generarción de informes con las estadísticas de los procesamientos de imágenes.<br><br></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio" class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="text-uppercase section-heading">Proceso</h2>
+                    <h3 class="section-subheading text-muted">Ejemplos del procesamiento y segmentación de imágenes</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-4 text-center portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal" style="color: rgb(54,110,254);">
+                        <div class="portfolio-hover" style="color: rgb(54,170,254);background-color: rgba(45,139,160,0.9);">
+                            <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
+                        </div><img class="rounded-circle img-fluid" src="assets/img/original.jpeg"></a>
+                    <div class="portfolio-caption">
+                        <h4>Original</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 text-center portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal" style="color: rgb(54,110,254);">
+                        <div class="portfolio-hover" style="color: rgb(54,170,254);background-color: rgba(45,139,160,0.9);">
+                            <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
+                        </div><img class="rounded-circle img-fluid" src="assets/img/preprocesado.jpeg"></a>
+                    <div class="portfolio-caption">
+                        <h4>Preprocesado</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 text-center portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="text-nowrap text-center text-sm-center text-md-center text-lg-center text-xl-center align-items-center portfolio-hover" style="background-color: rgba(45,139,160,0.9);">
+                            <div class="text-center portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
+                        </div><img class="rounded-circle img-fluid border rounded align-content-center align-self-center" src="assets/img/2_pred.png" style="color: rgb(24,169,169);max-width: 100%;"></a>
+                    <div class="portfolio-caption">
+                        <h4>Segmentación</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 text-center portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover" style="background-color: rgba(45,139,160,0.9);">
+                            <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
+                        </div><img class="rounded-circle img-fluid border rounded" src="assets/img/2_predcol.png"></a>
+                    <div class="portfolio-caption">
+                        <h4>Resultado</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="team" class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="team-member"><img class="rounded-circle mx-auto" src="assets/img/team1.jpeg">
+                        <h4>Carmen Mok</h4>
+                        <p class="text-muted">Web developer</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member"><img class="rounded-circle mx-auto" src="assets/img/team2.jpeg" style="width: 217px;">
+                        <h4>Luis José Badilla</h4>
+                        <p class="text-muted">Web developer</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member"><img class="rounded-circle mx-auto" src="assets/img/team4.jpeg" style="width: 211px;">
+                        <h4>Juan Villacís</h4>
+                        <p class="text-muted">Lead Developer</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" style="background-image:url('assets/img/map-image.png');">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="text-uppercase section-heading">Contáctenos</h2>
+                    <h3 class="section-subheading text-muted" style="font-size: 23px;">Es un gusto escucharlo</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <form id="contactForm" name="contactForm" novalidate="novalidate">
+                        <div class="form-row">
+                            <div class="col col-md-6">
+                                <div class="form-group"><input class="form-control" type="text" required="" placeholder="Nombre *" id="name"><small class="form-text text-danger flex-grow-1 help-block lead"></small></div>
+                                <div class="form-group"><input class="form-control" type="email" required="" id="email" placeholder="Correo *"><small class="form-text text-danger help-block lead"></small></div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group"><textarea class="form-control" required="" id="message" placeholder="Mensaje *"></textarea><small class="form-text text-danger help-block lead"></small></div>
+                            </div>
+                            <div class="col">
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div><button class="btn btn-info border-white btn-xl text-uppercase" type="submit" id="sendMessageButton" style="background-color: rgb(23,162,184);">Enviar mensaje</button></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="fixedBottom" style="margin-top: 0px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4"><span class="copyright">Copyright&nbsp;© 2018</span></div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li class="list-inline-item"></li>
+                        <li class="list-inline-item"><a href="#" style="color: rgb(23,162,184);">Términos de uso</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="modal fade portfolio-modal text-center" role="dialog" tabindex="-1" id="portfolioModal1">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <div class="modal-body">
+                                    <h2 class="text-uppercase">imagen original</h2>
+                                    <p class="item-intro text-muted"></p><img src="assets/img/original.jpeg" class="img-fluid d-block mx-auto" style="max-height: 100%;width: 400px;">
+                                    <p>Imagen resultante del análisis médico.</p><button class="btn btn-info" type="button" data-dismiss="modal"><span>&nbsp;Cerrar</span></button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade portfolio-modal text-center" role="dialog" tabindex="-1" id="portfolioModal2">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <div class="modal-body">
+                                    <h2 class="text-uppercase">imagen Preprocesada</h2>
+                                    <p class="item-intro text-muted"></p><img src="assets/img/preprocesado.jpeg" class="img-fluid d-block mx-auto" style="max-height: 100%;width: 400px;">
+                                    <p>Imagen resultante del preprocesado que mejora el contraste de la imagen original.</p><button class="btn btn-info" type="button" data-dismiss="modal"><span>&nbsp;Cerrar</span></button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade portfolio-modal text-center" role="dialog" tabindex="-1" id="portfolioModal3">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <div class="modal-body">
+                                    <h2 class="text-uppercase">Segmentación</h2><img class="border rounded img-fluid d-block mx-auto" src="assets/img/2_pred.png" style="width: 400px;max-height: 100%;">
+                                    <p>Resultado de la segmentación automática realizada con la red neural&nbsp;</p><button class="btn btn-info" type="button" data-dismiss="modal"><span>Cerrar</span></button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade portfolio-modal text-center" role="dialog" tabindex="-1" id="portfolioModal4">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <div class="modal-body">
+                                    <h2 class="text-uppercase">Resultado</h2><img src="assets/img/2_predcol.png" class="img-fluid d-block mx-auto" style="width: 400px;">
+                                    <p>Resultado de la segmentación, etiquetado y coloración de células.</p><button class="btn btn-info" type="button" data-dismiss="modal"><span>Cerrar</span></button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade portfolio-modal text-center" role="dialog" tabindex="-1" id="portfolioModal5">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <div class="modal-body">
+                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p><img src="assets/img/portfolio/5-full.jpg" class="img-fluid d-block mx-auto">
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae
+                                        cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <ul class="list-unstyled">
+                                        <li>Date: January 2017</li>
+                                        <li>Client: Threads</li>
+                                        <li>Category: Illustration</li>
+                                    </ul><button class="btn btn-primary" type="button" data-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Close Project</span></button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade portfolio-modal text-center" role="dialog" tabindex="-1" id="portfolioModal6">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <div class="modal-body">
+                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p><img src="assets/img/portfolio/6-full.jpg" class="img-fluid d-block mx-auto">
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae
+                                        cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <ul class="list-unstyled">
+                                        <li>Date: January 2017</li>
+                                        <li>Client: Threads</li>
+                                        <li>Category: Illustration</li>
+                                    </ul><button class="btn btn-primary" type="button" data-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Close Project</span></button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.15/js/dataTables.bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.pack.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="assets/js/smoothproducts.min.js"></script>
+    <script src="assets/js/Studious-selectfile.js"></script>
+    <script src="assets/js/agency.js"></script>
+    <script src="assets/js/Basic-fancyBox-Gallery.js"></script>
+    <script src="assets/js/theme.js"></script>
+    <script src="assets/js/bs-animation.js"></script>
+    <script src="assets/js/Date-Range-Picker.js"></script>
+    <script src="assets/js/ebs-bootstrap-datepicker-1.js"></script>
+    <script src="assets/js/ebs-bootstrap-datepicker.js"></script>
+    <script src="assets/js/File-Input---Beautiful-Input--Button-Approach-Jasny-Bootstrap.js"></script>
+    <script src="assets/js/Filterable-Gallery.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+</body>
+
+</html>
